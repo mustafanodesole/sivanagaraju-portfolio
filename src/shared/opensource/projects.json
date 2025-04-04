@@ -1,1 +1,76 @@
-{"data":[{"id":"MDEwOlJlcG9zaXRvcnkyOTU0MzQ5NjU=","name":"Face_Recognizer","createdAt":"2020-09-14T14:05:35Z","url":"https://github.com/Tasin5541/Face_Recognizer","description":"Face Recognition with ResNet-50 and custom trainable head","forkCount":2,"stargazers":{"totalCount":3},"languages":[{"name":"Jupyter Notebook","iconifyClass":"logos-jupyter"}]},{"id":"MDEwOlJlcG9zaXRvcnkyNDUxODc2NTk=","name":"Bachao-Android_Studio","createdAt":"2020-03-05T14:40:54Z","url":"https://github.com/Tasin5541/Bachao-Android_Studio","description":"An Android app made with Android Studio to report crime and stay updated with local most wanted criminals","forkCount":0,"stargazers":{"totalCount":3},"languages":[{"name":"Java","iconifyClass":"logos-java"}]},{"id":"MDEwOlJlcG9zaXRvcnkyNDUyMjc0MDY=","name":"Cricket-Image-Classifier","createdAt":"2020-03-05T17:33:15Z","url":"https://github.com/Tasin5541/Cricket-Image-Classifier","description":"A trained Neural Network model to identify what a player or umpire is doing in an image","forkCount":0,"stargazers":{"totalCount":3},"languages":[{"name":"Jupyter Notebook","iconifyClass":"logos-jupyter"}]},{"id":"MDEwOlJlcG9zaXRvcnkxODE0MTU2MDU=","name":"PAATHSHALA_PHP","createdAt":"2019-04-15T05:06:32Z","url":"https://github.com/Tasin5541/PAATHSHALA_PHP","description":"A website made for bangladeshi students where they can ask questions related to study and get ranked as they give solutions to others' problem","forkCount":1,"stargazers":{"totalCount":3},"languages":[{"name":"CSS","iconifyClass":"logos-css-3"},{"name":"JavaScript","iconifyClass":"logos-javascript"}]},{"id":"MDEwOlJlcG9zaXRvcnkyODYxNjEwNDE=","name":"Deep_Fake_Video_Using_First_Order_motion_model","createdAt":"2020-08-09T03:39:31Z","url":"https://github.com/Tasin5541/Deep_Fake_Video_Using_First_Order_motion_model","description":"Generate fake videos of a person from his image. Animates the image for lip sync","forkCount":0,"stargazers":{"totalCount":3},"languages":[{"name":"Jupyter Notebook","iconifyClass":"logos-jupyter"}]},{"id":"MDEwOlJlcG9zaXRvcnkyNDUxODU4NTc=","name":"Patient_Care_JAVA-Netbeans-","createdAt":"2020-03-05T14:33:45Z","url":"https://github.com/Tasin5541/Patient_Care_JAVA-Netbeans-","description":"A java software for hospital management and keeping track of own medical history","forkCount":1,"stargazers":{"totalCount":2},"languages":[{"name":"CSS","iconifyClass":"logos-css-3"},{"name":"HTML","iconifyClass":"logos-html-5"},{"name":"Java","iconifyClass":"logos-java"}]}]}
+{
+  "data": [
+    {
+      "id": "proj-001",
+      "name": "Game Theory Simulation - Prisoner's Dilemma",
+      "createdAt": "2024-08-01T00:00:00Z",
+      "url": "https://github.com/your-username/game-theory-simulator",
+      "description": "Developed a multi-strategy simulator in Java for decision-making scenarios. Modeled strategic behaviors and outcomes in repeated iterations.",
+      "forkCount": 0,
+      "stargazers": {
+        "totalCount": 0
+      },
+      "languages": [
+        {
+          "name": "Java",
+          "iconifyClass": "logos-java"
+        }
+      ]
+    },
+    {
+      "id": "proj-002",
+      "name": "VMware Server Consolidation Project",
+      "createdAt": "2024-02-01T00:00:00Z",
+      "url": "https://github.com/your-username/vmware-server-consolidation",
+      "description": "Led the migration of legacy physical servers into a centralized VMware ESXi environment to improve system efficiency and manageability. Designed and implemented a virtualized infrastructure using shared storage and High Availability (HA) configuration. Configured vSwitches, VM templates, and storage policies to streamline deployment and maintenance. Documented the migration and conducted training for system admins.",
+      "forkCount": 0,
+      "stargazers": {
+        "totalCount": 0
+      },
+      "languages": [
+        {
+          "name": "Shell",
+          "iconifyClass": "logos-bash"
+        }
+      ]
+    },
+    {
+      "id": "proj-003",
+      "name": "Cloud-Based Database Integration Project",
+      "createdAt": "2024-08-01T00:00:00Z",
+      "url": "https://github.com/your-username/cloud-db-integration",
+      "description": "Analyzed the adoption and impact of cloud-based databases in business environments. Case studies on Amazon RDS, Google BigQuery, and MongoDB Atlas. Assessed scalability, security, and compliance of cloud-native vs. traditional systems. Delivered a comprehensive research paper with industry recommendations.",
+      "forkCount": 0,
+      "stargazers": {
+        "totalCount": 0
+      },
+      "languages": [
+        {
+          "name": "Markdown",
+          "iconifyClass": "vscode-icons:file-type-markdown"
+        }
+      ]
+    },
+    {
+      "id": "proj-004",
+      "name": "Predictive Maintenance Model | Java & AWS Lambda",
+      "createdAt": "2025-01-01T00:00:00Z",
+      "url": "https://github.com/your-username/predictive-maintenance",
+      "description": "Java-based predictive maintenance system using Spring Boot & AWS Lambda. Reduced downtime by 25%. AI-driven analytics for equipment failure prediction. Kafka-based event streaming for real-time data sync. Microservices architecture reduced cloud costs by 15%.",
+      "forkCount": 0,
+      "stargazers": {
+        "totalCount": 0
+      },
+      "languages": [
+        {
+          "name": "Java",
+          "iconifyClass": "logos-java"
+        },
+        {
+          "name": "YAML",
+          "iconifyClass": "vscode-icons:file-type-yaml"
+        }
+      ]
+    }
+  ]
+}
