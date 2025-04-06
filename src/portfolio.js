@@ -12,8 +12,7 @@ const greeting = {
   nickname: null,
   subTitle:
     "An aspiring developer who loves to take on new projects that challenges his analytical and technological capacities.",
-  resumeLink:
-    "https://drive.google.com/file/d/1ecfeM8pNH7aLELi5EINHrX8-jY5Uqb0q/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1EX5H6PglU5_ICnXLDQdsmUkdzZoixmPr/view",
   portfolio_repository: "https://github.com/Tasin5541",
 };
 
