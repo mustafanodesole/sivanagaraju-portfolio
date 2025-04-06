@@ -450,7 +450,7 @@ const contactPageData = {
     title: "Email",
     subtitle: "kodalisiva695@gmail.com",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/yV1Vkp7L3to9qvKX6",
+    location_map_link: "#",
   },
   phoneSection: {
     title: "Phone Number",
