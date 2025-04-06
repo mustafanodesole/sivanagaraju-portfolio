@@ -10,13 +10,17 @@ class ExperienceCard extends Component {
         className="experience-card"
         style={{ border: `1px solid ${experience["color"]}` }}
       >
-        <div className="experience-card-logo-div">
-          <img
-            className="experience-card-logo"
-            src={require(`../../assests/images/${experience["logo_path"]}`)}
-            alt=""
-          />
-        </div>
+        {experience["logo_path"] && (
+          <>
+            <div className="experience-card-logo-div">
+              <img
+                className="experience-card-logo"
+                src={require(`../../assests/images/${experience["logo_path"]}`)}
+                alt=""
+              />
+            </div>
+          </>
+        )}
         <div className="experience-card-body-div">
           <div className="experience-card-header-div">
             <div className="experience-card-heading-left">
@@ -60,16 +64,65 @@ class ExperienceCard extends Component {
           >
             {experience["description"]}
           </p>
-          {experience["features"].map((feature) => {
-            return (
-              <p
-                className="experience-card-feature"
-                style={{ color: theme.repotext }}
-              >
-                {feature}
-              </p>
-            );
-          })}
+          {experience["features"] &&
+            experience["features"].map((feature) => {
+              return (
+                <p
+                  className="experience-card-feature"
+                  style={{ color: theme.repotext }}
+                >
+                  {feature}
+                </p>
+              );
+            })}
+
+          {experience["technology"] && (
+            <>
+              <strong className="p-5">Key Technologies</strong>
+              {experience["technology"].map((feature) => {
+                return (
+                  <p
+                    className="experience-card-feature"
+                    style={{ color: theme.repotext }}
+                  >
+                    {feature}
+                  </p>
+                );
+              })}
+            </>
+          )}
+
+          {experience["highlights"] && (
+            <>
+              <strong className="p-5">Implementation Highlights</strong>
+              {experience["highlights"].map((feature) => {
+                return (
+                  <p
+                    className="experience-card-feature"
+                    style={{ color: theme.repotext }}
+                  >
+                    {feature}
+                  </p>
+                );
+              })}
+            </>
+          )}
+
+          {experience["outcomes"] && (
+            <>
+              <strong className="p-5">Expected Outcomes</strong>
+              {experience["outcomes"].map((feature) => {
+                return (
+                  <p
+                    className="experience-card-feature"
+                    style={{ color: theme.repotext }}
+                  >
+                    {feature}
+                  </p>
+                );
+              })}
+            </>
+          )}
         </div>
       </div>
     );

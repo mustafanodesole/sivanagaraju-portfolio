@@ -7,6 +7,7 @@ import Experience from "../pages/experience/Experience";
 import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
+import OngoingResearch from "../pages/ongoing-research/OngoingResearch";
 
 export default class Main extends Component {
   render() {
@@ -53,6 +54,13 @@ export default class Main extends Component {
               path="/projects"
               render={(props) => (
                 <Projects {...props} theme={this.props.theme} />
+              )}
+            />
+
+            <Route
+              path="/ongoing-research"
+              render={(props) => (
+                <OngoingResearch {...props} theme={this.props.theme} />
               )}
             />
           </Switch>

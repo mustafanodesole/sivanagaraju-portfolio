@@ -361,7 +361,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Volunteership",
   description:
-    "Fullstack Developer with 5+ years of experience working with Java, Spring Boot, Docker, Kubernetes, AWS, and GraphQL—supported by strong experience in automating deployments and optimizing cloud services.I led full-cycle development at CVK Technologies, where I designed microservices, built real-time data processing pipelines, and mentored junior developers.",
+    "Fullstack Developer with 3 years of experience working with Java, Spring Boot, Docker, Kubernetes, AWS, and GraphQL—supported by strong experience in automating deployments and optimizing cloud services.I led full-cycle development at CVK Technologies, where I designed microservices, built real-time data processing pipelines, and mentored junior developers.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -403,23 +403,79 @@ const experience = {
         },
       ],
     },
-    // {
-    //   title: "Volunteerships",
-    //   experiences: [
-    //     {
-    //       title: "Developer Program Member",
-    //       company: "Github",
-    //       company_url: "https://github.com/",
-    //       logo_path: "github_logo.png",
-    //       duration: "September 2020 - PRESENT",
-    //       location: "Work From Home",
-    //       description:
-    //         "I am actively contributing to many opensource projects. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-    //       features: [],
-    //       color: "#181717",
-    //     },
-    //   ],
-    // },
+  ],
+};
+
+const research = {
+  title: "On Going Research",
+  subtitle: "",
+  description: "On going researches",
+  header_image_path: "experience.svg",
+  sections: [
+    {
+      title: "Research",
+      experiences: [
+        {
+          title:
+            "Design and Implementation of a Scalable Microservices-Based Order Processing System with Event-Driven Architecture in AWS",
+          description:
+            "This paper presents the design, development, and deployment of a cloud-native order processing system using a microservices architecture. The system is implemented in Java with Spring Boot and utilizes Apache Kafka for asynchronous communication between services. Docker and Kubernetes are used for containerization and orchestration, while AWS services such as RDS, S3, and EC2 handle data storage and compute operations. The system simulates real-world e-commerce scenarios including order placement, inventory check, payment processing, and notification delivery. Testing includes unit tests, integration tests, and performance benchmarking under load conditions. The project demonstrates industry-relevant backend skills like REST API design, fault tolerance, CI/CD automation, and scalable service deployment.",
+
+          technology: [
+            "-Language & Frameworks: Java, Spring Boot, Spring Cloud",
+            "-Architecture: Microservices, Event-driven (using Apache Kafka)",
+            "-Cloud Platform: AWS (EC2, RDS, S3, CloudWatch)",
+            "-DevOps: Docker, Kubernetes, Jenkins, GitHub Actions",
+            "-Databases: MySQL or PostgreSQL on Amazon RDS",
+            "-Monitoring: Prometheus + Grafana or AWS CloudWatch",
+          ],
+          highlights: [
+            "-REST APIs for order creation, inventory management, and user service",
+            "-Kafka topics to handle communication between loosely coupled services",
+            "-Dockerized services deployed using Kubernetes on AWS EKS",
+            "-Real-time logging, monitoring, and health checks",
+            "-Testing: JUnit for unit tests, Postman for API testing, JMeter for load testing",
+          ],
+
+          outcomes: [
+            "-Demonstrate proficiency in backend service design and deployment",
+          ],
+          color: "#0879bf",
+        },
+        {
+          title:
+            "Real-Time Predictive Maintenance Using Machine Learning and Event Streaming in AWS: A Cloud-Native Implementation",
+          description:
+            "This research presents the development and evaluation of a real-time predictive maintenance system designed for industrial equipment monitoring. The system leverages machine learning algorithms to predict potential equipment failures based on time-series sensor data. Kafka is used for ingesting and streaming data to a real-time analytics engine built with AWS Lambda and Amazon SageMaker. The backend infrastructure is implemented in Java using Spring Boot for API integration, while the ML model is developed using Python (or Java with DL4J if preferred). The system is containerized with Docker and deployed on AWS. The paper includes detailed testing of the model’s accuracy, system latency, and the impact on operational efficiency.",
+
+          technology: [
+            "-Programming Languages: Java (for backend), Python (for ML)",
+            "-Frameworks: Spring Boot, Scikit-learn or XGBoost",
+            "-Cloud Tools: AWS Lambda, Amazon SageMaker, S3, EC2",
+            "-Event Streaming: Apache Kafka",
+            "-Deployment: Docker, AWS ECS or EKS",
+            "-Databases: Amazon RDS or DynamoDB",
+            "-Monitoring: CloudWatch, Prometheus",
+          ],
+
+          highlights: [
+            "-Build a pipeline that streams live sensor data via Kafka",
+            "-Train and deploy a predictive model (e.g., Random Forest or XGBoost) to forecast equipment failures",
+            "-Integrate predictions into a REST API backend using Spring Boot",
+            "-Real-time alerts and analytics dashboard for decision support",
+            "-Load testing, latency benchmarking, and model accuracy validation (e.g., precision, recall, F1-score)",
+          ],
+
+          outcomes: [
+            "-Showcase full-stack AI integration with cloud-native infrastructure",
+            "-Solve a real-world use case valued across industries (manufacturing, healthcare, logistics)",
+            "-Deliver a deployable, job-ready system combining Java, ML, and cloud skills",
+          ],
+
+          color: "#0879bf",
+        },
+      ],
+    },
   ],
 };
 
@@ -472,4 +528,5 @@ export {
   experience,
   projectsHeader,
   contactPageData,
+  research,
 };
