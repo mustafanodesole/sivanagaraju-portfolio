@@ -13,14 +13,14 @@ const greeting = {
   subTitle:
     "An aspiring developer who loves to take on new projects that challenges his analytical and technological capacities.",
   resumeLink:
-    "https://drive.google.com/file/d/1ecfeM8pNH7aLELi5EINHrX8-jY5Uqb0q/view?usp=sharing",
-  portfolio_repository: "https://github.com/Tasin5541",
+    "https://drive.google.com/file/d/1EX5H6PglU5_ICnXLDQdsmUkdzZoixmPr/view",
+  portfolio_repository: "",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/Tasin5541",
+    link: "",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
@@ -29,32 +29,6 @@ const socialMediaLinks = [
     link: "https://www.linkedin.com/in/sivanagaraju-kodali-52b121214/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-  },
-  {
-    name: "YouTube",
-    link:
-      "https://www.youtube.com/channel/UClvrUclYSGX_MZPOF6ySG6A?view_as=subscriber",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
-    name: "Gmail",
-    link:
-      "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tasinmiftaulmannan@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Hello",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/tasinmiftaulmannan",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/mm_tasin/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
@@ -476,7 +450,7 @@ const contactPageData = {
     title: "Email",
     subtitle: "kodalisiva695@gmail.com",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/yV1Vkp7L3to9qvKX6",
+    location_map_link: "#",
   },
   phoneSection: {
     title: "Phone Number",
