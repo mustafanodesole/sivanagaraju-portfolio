@@ -1,7 +1,6 @@
 {
   "private": true,
-  "name": "MiftaulMannan",
-  "homepage": "https://tasin5541.github.io/portfolio/",
+  "name": "sivanagaraju",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
